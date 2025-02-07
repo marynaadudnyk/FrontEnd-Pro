@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding: 40px 20px;
+}
