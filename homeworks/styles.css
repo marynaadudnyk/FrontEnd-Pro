@@ -15,10 +15,13 @@ body {
     max-width: 1400px;
     margin-inline: auto;
     padding: 40px 20px;
+    flex: 1 0;
+}
+
+.container__main-page {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 0;
 }
 
 .nav-main {
