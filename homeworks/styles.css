@@ -29,14 +29,14 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
-    text-align: center;
     font-size: 30px;
 }
 
 .nav-main li {
-    max-width: 600px;
+    max-width: 300px;
     margin-inline: auto;
     border-bottom: 1px solid #adadad;
+    padding: 0 20px;
 }
 
 .nav-main li:last-child {
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-main a {
-    display: inline-block;
+    display: block;
     color: inherit;
     transition: all .3s;
     text-decoration: none;
@@ -53,4 +53,29 @@ body {
 
 .nav-main a:hover {
     color: #adadad;
+}
+
+.nav-main a:hover strong {
+    color: #adadad;
+}
+
+.nav-main strong {
+    color: #b52727;
+    transition: all .3s;
+}
+
+.nav-sub {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 22px;
+}
+
+.nav-sub li {
+    border: none;
+   padding-left: 42px;
+}
+
+.nav-sub strong {
+    color: #b52727;
 }
