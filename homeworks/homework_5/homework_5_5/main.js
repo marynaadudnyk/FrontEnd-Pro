@@ -1,17 +1,11 @@
-let numOrStr = prompt('input number or string');
-console.log(numOrStr);
+let i;
+let start = 1;
+let number = parseInt(prompt(`Введіть число`));
 
-switch (true) {
-    case numOrStr === null:
-        console.log('ви скасували');
-        break;
-    case numOrStr.trim() === '':
-        console.log('Empty String');
-        break;
-    case isNaN(+numOrStr):
-        console.log('number is Ba_NaN');
-        break;
-    default:
-        console.log('OK!');
-        break;
+for (i = start; i <= number; i++) {
+    if (number === 3 * i) {
+        console.log(`Число ${number} отримано шляхом возведення числа 3 в ступінь ${i}`);
+    } else {
+        console.log(`Число ${number} не можливо отримати шляхом возведення числа 3 в дюбу ступінь`);
+    }
 }

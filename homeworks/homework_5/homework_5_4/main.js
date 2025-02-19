@@ -1,17 +1,17 @@
-let numOrStr = prompt('input number or string');
-console.log(numOrStr);
+let i;
+let sum = 0;
+let number = parseInt(prompt(`Введіть число`));
 
-switch (true) {
-    case numOrStr === null:
-        console.log('ви скасували');
-        break;
-    case numOrStr.trim() === '':
-        console.log('Empty String');
-        break;
-    case isNaN(+numOrStr):
-        console.log('number is Ba_NaN');
-        break;
-    default:
-        console.log('OK!');
-        break;
+if (number >= 1) {
+    for (i = 1; i <= number; i++) {
+        sum = sum + 1;
+    }
+
+    if (sum === 2) {
+        console.log(`${number} - просте число`);
+    } else {
+        console.log(`${number} - не просте число`);
+    }
+} else {
+    console.log(`${number} - не просте число`);
 }
