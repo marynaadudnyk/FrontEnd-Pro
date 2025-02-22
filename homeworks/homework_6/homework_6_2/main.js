@@ -47,6 +47,12 @@ for (let i = 0; i < arr.length; i++) {
         number = number * arr[i];
     }
 }
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < max) {
+        arr[i] = 0;
+    }
+}
+
 console.log(`Sum of positive numbers:, ${sum}`);
 console.log(`Count of positive numbers: ${count}`);
 console.log(`Min number: ${min} and it index ${minIndex}`);
@@ -57,11 +63,5 @@ console.log(`Count of even elements: ${countEven}`);
 console.log(`Sum of odd elements: ${sumOdd}`);
 console.log(`Sum of even elements: ${sumEven}`);
 console.log(`Product of all positive elements: ${number}`);
-
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < max) {
-        arr[i] = 0;
-    }
-}
 console.log(`Product of all positive elements: ${arr}`);
 
