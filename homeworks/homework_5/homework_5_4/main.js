@@ -1,17 +1,16 @@
 let i;
-let sum = 0;
 let number = parseInt(prompt(`Введіть число`));
+let sum = true;
 
-if (number >= 1) {
-    for (i = 1; i <= number; i++) {
-        sum = sum + 1;
+for (i = 2; i < number; i++) {
+    if (number % i === 0) {
+        sum = false;
+        break
     }
+}
 
-    if (sum === 2) {
-        console.log(`${number} - просте число`);
-    } else {
-        console.log(`${number} - не просте число`);
-    }
+if (sum) {
+    console.log(`${number} - просте число`);
 } else {
     console.log(`${number} - не просте число`);
 }
