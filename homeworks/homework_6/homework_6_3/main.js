@@ -64,4 +64,4 @@ let sumBalanc = 0
 for (i = 0; i < users.length; i++) {
     sumBalanc = sumBalanc + users[i].balance;
 }
-console.log(sumBalanc);
+console.log(sumBalanc.toFixed(2));
