@@ -1,3 +1,5 @@
+/* Створити функцію, яка прибирає з рядка всі символи, які ми передали другим аргументом. 'func(" hello world", ['l', 'd'])' поверне нам "heo wor".Вихідний рядок та символи для видалення задає користувач. */
+
 let text = "hello world";
 let textRemove = ['l', 'd'];
 
@@ -18,7 +20,6 @@ function removeLetters(text, textRemove) {
             result = result + text[i];
         }
     }
-
     console.log(result);
 }
 
