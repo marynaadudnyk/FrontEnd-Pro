@@ -1,3 +1,6 @@
+let text = "hello world";
+let textRemove = ['l', 'd'];
+
 function removeLetters(text, textRemove) {
     let result = '';
 
@@ -16,9 +19,8 @@ function removeLetters(text, textRemove) {
         }
     }
 
-    return result;
+    console.log(result);
 }
 
-console.log(removeLetters(" hello world", ['l', 'd']));
-
+removeLetters(text, textRemove)
 
