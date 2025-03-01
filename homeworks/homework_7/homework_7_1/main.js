@@ -1,4 +1,4 @@
-function removeChars(text, textRemove) {
+function removeLetters(text, textRemove) {
     let result = '';
 
     for (let i = 0; i < text.length; i++) {
@@ -19,6 +19,6 @@ function removeChars(text, textRemove) {
     return result;
 }
 
-console.log(removeChars(" hello world", ['l', 'd']));
+console.log(removeLetters(" hello world", ['l', 'd']));
 
 
