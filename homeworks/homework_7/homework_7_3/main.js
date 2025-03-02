@@ -13,7 +13,7 @@ function removeElement(array, item) {
             break;
         }
     }
+    console.log(array);
 }
 
 removeElement(array, 4);
-console.log(array);

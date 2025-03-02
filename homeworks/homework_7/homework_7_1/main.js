@@ -23,5 +23,5 @@ function removeLetters(text, textRemove) {
     console.log(result);
 }
 
-removeLetters(text, textRemove)
+removeLetters(text, textRemove);
 
