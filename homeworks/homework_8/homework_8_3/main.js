@@ -5,7 +5,7 @@ function arr() {
     let maxCount = 10;
     let number;
 
-    for (let i = 0; i < maxCount; i++) {
+    for (let i = 1; i <= maxCount; i++) {
         number = prompt(`Enter a number greater than 100:`);
 
         if (parseInt(number) > min || isNaN(number)) {
