@@ -1,0 +1,7 @@
+.text-holder {
+    transition: color .3s;
+}
+
+.red {
+    color: red;
+}
