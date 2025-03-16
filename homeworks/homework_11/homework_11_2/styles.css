@@ -1,5 +1,19 @@
 .text-holder {
-    transition: color .3s;
+    transition: all .3s;
+}
+
+.btn {
+    border-radius: 15px;
+    border: 2px solid red;
+    background-color: red;
+    cursor: pointer;
+    transition: all .3s;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: white;
 }
 
 .red {
