@@ -3,5 +3,3 @@
 document.querySelector('.btn').addEventListener('click', () => {
     document.querySelector('.text-holder').classList.toggle('red');
 });
-
-document.querySelector
